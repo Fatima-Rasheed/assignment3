@@ -47,10 +47,9 @@ while(i<=20){
 // Question no 5
 function factorial(n:number){
 var num:number=1;
-while(n>0){
+while(n=4){
     num*=n;
     n-=1;
     console.log(num)
 }
 }
-factorial(7)
