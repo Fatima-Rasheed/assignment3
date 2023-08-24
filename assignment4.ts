@@ -49,7 +49,9 @@ function factorial(n:number){
 var num:number=1;
 while(n>0){
     num*=n;
+    n-=1;
     console.log(num)
 }
 i++;
 }
+factorial(7)
