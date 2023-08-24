@@ -8,11 +8,22 @@ function array1(array: any[], index: number, value: number) {
    console.log(array1(myArray, 1, 6));
 
 //    Question no 2
-var cart: any[]=[{name:"bag", quantity:2 ,price:5000}];
-function additems(name1:string,quantity1:number,price1:number)
-{
-cart.splice(0 ,0,{name:name1,quantity: quantity1,price:price1})
-console.log(cart)
+var cart:string[]=["bags","shoes","glasses","jewllery"]
+// AddItems
+function addItems(){
+    cart.splice(3,0,"Mangoes")
+    return cart;
 }
-additems("lehnga",1,20000)
-additems("shoes",10,90000)
+console.log(addItems)
+// REmoveItems
+function removeItems(){
+    cart.splice(2,1)
+    return cart;
+}
+console.log(removeItems)
+// Update items
+function updateItems(){
+    cart.splice(4,0,"perfumes")
+    return cart;
+}
+console.log(updateItems)
