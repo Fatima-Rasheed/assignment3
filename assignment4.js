@@ -43,3 +43,11 @@ while (i <= 20) {
     }
     i++;
 }
+// Question no 5
+function factorial(n) {
+    var num = 1;
+    while (n > 0) {
+        num *= n;
+    }
+    i++;
+}
