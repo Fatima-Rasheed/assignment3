@@ -45,11 +45,31 @@ while(i<=20){
     i++;
 }
 // Question no 5
+// function factorial(n:number){
+// var num:number=1;
+// while(n>0){
+//     num*=n;
+//     n-=1;
+//     console.log(num)
+// }
+
 function factorial(n:number){
+    if (n<0){
+        console.log("factorial is not define for negative number")}
+
+    else if (n==0){
+    console.log(1)
+}
+    else{
+
 var num:number=1;
-while(n=4){
-    num*=n;
-    n-=1;
+while(n>0){
+    num *= n
+    n -= 1
     console.log(num)
+    
+    }  
 }
+
 }
+factorial(5)
