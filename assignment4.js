@@ -13,16 +13,19 @@ function addItems() {
     cart.splice(3, 0, "Mangoes");
     return cart;
 }
-console.log(addItems);
+console.log();
+console.log(addItems());
 // REmoveItems
 function removeItems() {
     cart.splice(2, 1);
     return cart;
 }
-console.log(removeItems);
+console.log(cart);
+console.log(removeItems());
 // Update items
 function updateItems() {
     cart.splice(4, 0, "perfumes");
     return cart;
 }
-console.log(updateItems);
+console.log(cart);
+console.log(updateItems());
