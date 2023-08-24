@@ -51,6 +51,5 @@ function factorial(n) {
         n -= 1;
         console.log(num);
     }
-    i++;
 }
 factorial(7);

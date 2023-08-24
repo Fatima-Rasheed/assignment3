@@ -52,6 +52,5 @@ while(n>0){
     n-=1;
     console.log(num)
 }
-i++;
 }
 factorial(7)
