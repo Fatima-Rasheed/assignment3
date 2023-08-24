@@ -49,6 +49,7 @@ function factorial(n:number){
 var num:number=1;
 while(n>0){
     num*=n;
+    console.log(num)
 }
 i++;
 }
