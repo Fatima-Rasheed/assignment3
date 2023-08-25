@@ -37,13 +37,13 @@ console.log(i)
 i++;
 }
 // Question no 4
-// var i :number=1;
-// while(i<=20){
-//     if(i%2==0){
-//         console.log(i)
-//     }
-//     i++;
-// }
+var i :number=1;
+while(i<=20){
+    if(i%2==0){
+        console.log(i)
+    }
+    i++;
+}
 // Question no 5
 // function factorial(n:number){
 // var num:number=1;
