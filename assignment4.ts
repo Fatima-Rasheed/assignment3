@@ -45,15 +45,15 @@ while(i<=20){
     i++;
 }
 // Question no 5
-function factorial(n:number){
-var num:number=1;
-while(n>0){
-    num*=n;
-     console.log(num)
- }
-i++;
-}
-factorial(3)
+// function factorial(n:number){
+// var num:number=1;
+// while(n>0){
+//     num*=n;
+//      console.log(num)
+//  }
+// i++;
+// }
+// factorial(3)
 // Question no 6
 var num:number[]=[20,54,-74,83,-35,76,-44];
 while(i<num.length){
@@ -66,4 +66,15 @@ if(num[i]<0){
 }
 
 // Question no 7
+function sumArray(arraytosum:number[]){
+var sum:number=0;
+var j:number=0;
+while(j<arraytosum.length){
+    sum+=arraytosum[j];
+    j++;
+}
+return sum;
+}
+var newArray:number[]=[39,76,22,54]
+console.log(sumArray(newArray))
 
