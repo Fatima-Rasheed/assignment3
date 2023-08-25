@@ -54,15 +54,15 @@ while(n>0){
 }
 factorial(3)
 // Question no 6
-var num:number[]=[20,54,-74,83,-35,76,-44];
-while(i<num.length){
+// var num:number[]=[20,54,-74,83,-35,76,-44];
+// while(i<num.length){
    
-}
-i++;
-if(num[i]<0){
-    num.splice(i,1);
-    console.log(num)
-}
+// }
+// i++;
+// if(num[i]<0){
+//     num.splice(i,1);
+//     console.log(num);
+// }
 
 // Question no 7
 
