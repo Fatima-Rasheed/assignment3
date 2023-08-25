@@ -55,7 +55,10 @@ while(n>0){
 factorial(3)
 // Question no 6
 var num:number[]=[20,54,-74,83,-35,76,-44];
-
+while(i>0){
+    console.log(i);
+}
+i++;
 if(num[i]<0){
     num.pop();
     console.log(num)
