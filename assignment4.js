@@ -30,11 +30,11 @@ function updateItems() {
 console.log(cart);
 console.log(updateItems());
 // Question no 3
-// var i:number=1;
-// while (i<=25){
-// console.log(i)
-// i++;
-// }
+var i = 1;
+while (i <= 25) {
+    console.log(i);
+    i++;
+}
 // Question no 4
 // var i :number=1;
 // while(i<=20){
