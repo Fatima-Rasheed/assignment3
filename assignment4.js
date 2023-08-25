@@ -44,27 +44,17 @@ while (i <= 20) {
     i++;
 }
 // Question no 5
-// function factorial(n:number){
-// var num:number=1;
-// while(n>0){
-//     num*=n;
-//     n-=1;
-//     console.log(num)
-// }
 function factorial(n) {
-    if (n < 0) {
-        console.log("factorial is not define for negative number");
-    }
-    else if (n == 0) {
-        console.log(1);
-    }
-    else {
-        var num = 1;
-        while (n > 0) {
-            num *= n;
-            n -= 1;
-            console.log(num);
-        }
+    var num = 1;
+    while (n > 0) {
+        num *= n;
+        console.log(num);
     }
 }
-factorial(5);
+factorial(3);
+// Question no 6
+var num = [20, 54, -74, 83, -35, 76, -44];
+if (num[i] < 0) {
+    num.pop();
+    console.log(num);
+}
