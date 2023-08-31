@@ -60,14 +60,11 @@ console.log ("The facatorial is=",factorial(n));
 // Question no 6
 var num1:number[]=[20,54,-74,83,-35,76,-44];
 while(i<num1.length){
-   
-}
-i++;
-
-
-if(num1[i]<0){
+   if(num1[i]<0){
     num1.splice(i,1);
     console.log(num1);
+}
+i++;
 }
 // Question no 7
 function sumArray(arraytosum:number[]){
@@ -87,7 +84,7 @@ function temperature(celcius:number[]){
     let F:number[]=[];
     while(k<celcius.length){
         F[k]=((celcius[k]*9/5)+32);
-        i++;
+        k++;
     }
     return F;
     }
